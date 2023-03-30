@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		58573BFB29D5790900F5A103 /* aqiappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58573BFA29D5790900F5A103 /* aqiappApp.swift */; };
+		58573BFD29D5790900F5A103 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58573BFC29D5790900F5A103 /* ContentView.swift */; };
+		58573BFF29D5790A00F5A103 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58573BFE29D5790A00F5A103 /* Assets.xcassets */; };
+		58573C0229D5790A00F5A103 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58573C0129D5790A00F5A103 /* Preview Assets.xcassets */; };
+		58573C0429D5790A00F5A103 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58573C0329D5790A00F5A103 /* Persistence.swift */; };
+		58573C0729D5790A00F5A103 /* aqiapp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 58573C0529D5790A00F5A103 /* aqiapp.xcdatamodeld */; };
+		58573C1229D5790A00F5A103 /* aqiappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58573C1129D5790A00F5A103 /* aqiappTests.swift */; };
+		58573C1C29D5790A00F5A103 /* aqiappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58573C1B29D5790A00F5A103 /* aqiappUITests.swift */; };
+		58573C1E29D5790A00F5A103 /* aqiappUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58573C1D29D5790A00F5A103 /* aqiappUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		58573C0E29D5790A00F5A103 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58573BEF29D5790900F5A103 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58573BF629D5790900F5A103;
+			remoteInfo = aqiapp;
+		};
+		58573C1829D5790A00F5A103 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58573BEF29D5790900F5A103 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58573BF629D5790900F5A103;
+			remoteInfo = aqiapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		58573BF729D5790900F5A103 /* aqiapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aqiapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		58573BFA29D5790900F5A103 /* aqiappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aqiappApp.swift; sourceTree = "<group>"; };
+		58573BFC29D5790900F5A103 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		58573BFE29D5790A00F5A103 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		58573C0129D5790A00F5A103 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		58573C0329D5790A00F5A103 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		58573C0629D5790A00F5A103 /* aqiapp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = aqiapp.xcdatamodel; sourceTree = "<group>"; };
+		58573C0829D5790A00F5A103 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58573C0D29D5790A00F5A103 /* aqiappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aqiappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		58573C1129D5790A00F5A103 /* aqiappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aqiappTests.swift; sourceTree = "<group>"; };
+		58573C1729D5790A00F5A103 /* aqiappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aqiappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		58573C1B29D5790A00F5A103 /* aqiappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aqiappUITests.swift; sourceTree = "<group>"; };
+		58573C1D29D5790A00F5A103 /* aqiappUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aqiappUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58573BF429D5790900F5A103 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58573C0A29D5790A00F5A103 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58573C1429D5790A00F5A103 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		58573BEE29D5790900F5A103 = {
+			isa = PBXGroup;
+			children = (
+				58573BF929D5790900F5A103 /* aqiapp */,
+				58573C1029D5790A00F5A103 /* aqiappTests */,
+				58573C1A29D5790A00F5A103 /* aqiappUITests */,
+				58573BF829D5790900F5A103 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		58573BF829D5790900F5A103 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58573BF729D5790900F5A103 /* aqiapp.app */,
+				58573C0D29D5790A00F5A103 /* aqiappTests.xctest */,
+				58573C1729D5790A00F5A103 /* aqiappUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58573BF929D5790900F5A103 /* aqiapp */ = {
+			isa = PBXGroup;
+			children = (
+				58573BFA29D5790900F5A103 /* aqiappApp.swift */,
+				58573BFC29D5790900F5A103 /* ContentView.swift */,
+				58573BFE29D5790A00F5A103 /* Assets.xcassets */,
+				58573C0329D5790A00F5A103 /* Persistence.swift */,
+				58573C0829D5790A00F5A103 /* Info.plist */,
+				58573C0529D5790A00F5A103 /* aqiapp.xcdatamodeld */,
+				58573C0029D5790A00F5A103 /* Preview Content */,
+			);
+			path = aqiapp;
+			sourceTree = "<group>";
+		};
+		58573C0029D5790A00F5A103 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				58573C0129D5790A00F5A103 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		58573C1029D5790A00F5A103 /* aqiappTests */ = {
+			isa = PBXGroup;
+			children = (
+				58573C1129D5790A00F5A103 /* aqiappTests.swift */,
+			);
+			path = aqiappTests;
+			sourceTree = "<group>";
+		};
+		58573C1A29D5790A00F5A103 /* aqiappUITests */ = {
+			isa = PBXGroup;
+			children = (
+				58573C1B29D5790A00F5A103 /* aqiappUITests.swift */,
+				58573C1D29D5790A00F5A103 /* aqiappUITestsLaunchTests.swift */,
+			);
+			path = aqiappUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58573BF629D5790900F5A103 /* aqiapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58573C2129D5790A00F5A103 /* Build configuration list for PBXNativeTarget "aqiapp" */;
+			buildPhases = (
+				58573BF329D5790900F5A103 /* Sources */,
+				58573BF429D5790900F5A103 /* Frameworks */,
+				58573BF529D5790900F5A103 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = aqiapp;
+			productName = aqiapp;
+			productReference = 58573BF729D5790900F5A103 /* aqiapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		58573C0C29D5790A00F5A103 /* aqiappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58573C2429D5790A00F5A103 /* Build configuration list for PBXNativeTarget "aqiappTests" */;
+			buildPhases = (
+				58573C0929D5790A00F5A103 /* Sources */,
+				58573C0A29D5790A00F5A103 /* Frameworks */,
+				58573C0B29D5790A00F5A103 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58573C0F29D5790A00F5A103 /* PBXTargetDependency */,
+			);
+			name = aqiappTests;
+			productName = aqiappTests;
+			productReference = 58573C0D29D5790A00F5A103 /* aqiappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		58573C1629D5790A00F5A103 /* aqiappUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58573C2729D5790A00F5A103 /* Build configuration list for PBXNativeTarget "aqiappUITests" */;
+			buildPhases = (
+				58573C1329D5790A00F5A103 /* Sources */,
+				58573C1429D5790A00F5A103 /* Frameworks */,
+				58573C1529D5790A00F5A103 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58573C1929D5790A00F5A103 /* PBXTargetDependency */,
+			);
+			name = aqiappUITests;
+			productName = aqiappUITests;
+			productReference = 58573C1729D5790A00F5A103 /* aqiappUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58573BEF29D5790900F5A103 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					58573BF629D5790900F5A103 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					58573C0C29D5790A00F5A103 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 58573BF629D5790900F5A103;
+					};
+					58573C1629D5790A00F5A103 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 58573BF629D5790900F5A103;
+					};
+				};
+			};
+			buildConfigurationList = 58573BF229D5790900F5A103 /* Build configuration list for PBXProject "aqiapp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 58573BEE29D5790900F5A103;
+			productRefGroup = 58573BF829D5790900F5A103 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58573BF629D5790900F5A103 /* aqiapp */,
+				58573C0C29D5790A00F5A103 /* aqiappTests */,
+				58573C1629D5790A00F5A103 /* aqiappUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		58573BF529D5790900F5A103 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58573C0229D5790A00F5A103 /* Preview Assets.xcassets in Resources */,
+				58573BFF29D5790A00F5A103 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58573C0B29D5790A00F5A103 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58573C1529D5790A00F5A103 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58573BF329D5790900F5A103 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58573C0429D5790A00F5A103 /* Persistence.swift in Sources */,
+				58573BFD29D5790900F5A103 /* ContentView.swift in Sources */,
+				58573BFB29D5790900F5A103 /* aqiappApp.swift in Sources */,
+				58573C0729D5790A00F5A103 /* aqiapp.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58573C0929D5790A00F5A103 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58573C1229D5790A00F5A103 /* aqiappTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58573C1329D5790A00F5A103 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58573C1E29D5790A00F5A103 /* aqiappUITestsLaunchTests.swift in Sources */,
+				58573C1C29D5790A00F5A103 /* aqiappUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		58573C0F29D5790A00F5A103 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58573BF629D5790900F5A103 /* aqiapp */;
+			targetProxy = 58573C0E29D5790A00F5A103 /* PBXContainerItemProxy */;
+		};
+		58573C1929D5790A00F5A103 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58573BF629D5790900F5A103 /* aqiapp */;
+			targetProxy = 58573C1829D5790A00F5A103 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		58573C1F29D5790A00F5A103 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		58573C2029D5790A00F5A103 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58573C2229D5790A00F5A103 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"aqiapp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aqi.aqiapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		58573C2329D5790A00F5A103 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"aqiapp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aqi.aqiapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		58573C2529D5790A00F5A103 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aqi.aqiappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/aqiapp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/aqiapp";
+			};
+			name = Debug;
+		};
+		58573C2629D5790A00F5A103 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aqi.aqiappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/aqiapp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/aqiapp";
+			};
+			name = Release;
+		};
+		58573C2829D5790A00F5A103 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aqi.aqiappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = aqiapp;
+			};
+			name = Debug;
+		};
+		58573C2929D5790A00F5A103 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aqi.aqiappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = aqiapp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58573BF229D5790900F5A103 /* Build configuration list for PBXProject "aqiapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58573C1F29D5790A00F5A103 /* Debug */,
+				58573C2029D5790A00F5A103 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58573C2129D5790A00F5A103 /* Build configuration list for PBXNativeTarget "aqiapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58573C2229D5790A00F5A103 /* Debug */,
+				58573C2329D5790A00F5A103 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58573C2429D5790A00F5A103 /* Build configuration list for PBXNativeTarget "aqiappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58573C2529D5790A00F5A103 /* Debug */,
+				58573C2629D5790A00F5A103 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58573C2729D5790A00F5A103 /* Build configuration list for PBXNativeTarget "aqiappUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58573C2829D5790A00F5A103 /* Debug */,
+				58573C2929D5790A00F5A103 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		58573C0529D5790A00F5A103 /* aqiapp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				58573C0629D5790A00F5A103 /* aqiapp.xcdatamodel */,
+			);
+			currentVersion = 58573C0629D5790A00F5A103 /* aqiapp.xcdatamodel */;
+			path = aqiapp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 58573BEF29D5790900F5A103 /* Project object */;
+}
