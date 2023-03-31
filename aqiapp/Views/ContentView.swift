@@ -16,8 +16,25 @@ struct ContentView: View {
         animation: .default)
     private var items: FetchedResults<Item>
     
+    @State private var selection: Tab = .featured
+    
+    enum Tab {
+        case featured
+        case list
+    }
+    
     var body: some View {
-        LandmarkList()
+        TabView(selection: $selection) {
+            CategoryHome()
+                .tabItem {
+                    Label("Featured", systemImage: "star")
+                }
+            
+            LandmarkList()
+                .tabItem {
+                    Label("List", systemImage: "list.bullet")
+                }
+        }
         //        NavigationView {
         //            List {
         //                ForEach(items) { item in
@@ -86,6 +103,6 @@ struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView().environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
             .environmentObject(ModelData())
-
+        
     }
 }
